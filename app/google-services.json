@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "874078536060",
+    "firebase_url": "https://sti-2021-default-rtdb.firebaseio.com",
+    "project_id": "sti-2021",
+    "storage_bucket": "sti-2021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874078536060:android:d7961265a1f9ee7ef764f9",
+        "android_client_info": {
+          "package_name": "com.example.sti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874078536060-skv2lp382hn17dukdbn8lcr1cbkqvf76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBANzc90O49Wk6IJvp7iBwRXPos8oeiSy4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874078536060-skv2lp382hn17dukdbn8lcr1cbkqvf76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

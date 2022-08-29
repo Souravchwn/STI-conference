@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="primaryDark">#EC6F20</color>
+    <color name="Darkfade">#63B2FF59</color>
+    <color name="sti_blue">#043A61</color>
+    <color name="NeviBLue">#0E1B4D</color>
+    <color name="Yellow">#FFAB40</color>
+    <color name="red">#EC6F20</color>
+    <color name="gray">#EE292929</color>
+    <color name="lightblue">#45CCFF90</color>
+
+
+</resources>

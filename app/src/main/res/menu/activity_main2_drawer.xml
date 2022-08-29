@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/homenew"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/aboutnew"
+            android:title="Introduction to STI" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/speakernew"
+            android:title="Keynote Speaker" />
+        <item
+            android:id="@+id/datesFragment2"
+            android:icon="@drawable/important"
+            android:title="Important dates" />
+        <item
+            android:id="@+id/committee_fragment"
+            android:icon="@drawable/comite"
+            android:title="Committee" />
+        <item
+            android:id="@+id/sti_expo"
+            android:icon="@drawable/callfor"
+            android:title="STI expo" />
+        <item
+            android:id="@+id/publication"
+            android:icon="@drawable/publication"
+            android:title="Publication" />
+        <item
+            android:id="@+id/event"
+            android:icon="@drawable/evente"
+            android:title="Event Venue" />
+        <item
+            android:id="@+id/callforpaper"
+            android:icon="@drawable/callforpaper"
+            android:title="Call for paper" />
+    </group>
+
+    <item android:title="Tools">
+        <menu>
+            <item
+                android:id="@+id/submission"
+                android:icon="@drawable/submission"
+                android:title="Submission guide" />
+            <item
+                android:id="@+id/registration_fragement"
+                android:icon="@drawable/registration"
+                android:title="Registration " />
+        </menu>
+    </item>
+    <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/sponsor_icon"
+                android:title="Sponsors" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/contact"
+                android:title="Contact and Support" />
+        </menu>
+    </item>
+
+</menu>

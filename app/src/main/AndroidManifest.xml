@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sti">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_adaptive_fore"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/stinew"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".sti_web" />
+        <activity android:name=".ui.link_clicked" />
+        <activity android:name=".eventview" />
+        <activity android:name=".paid_notice_board" />
+        <activity android:name=".user_profile" />
+        <activity android:name=".view_pdf">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="https" />
+                <data android:host="*.zoom.us" />
+                <data android:pathPattern="/j/.*" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".paid_link" />
+        <activity
+            android:name=".splash_screen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".notepad.notepad_sti" />
+        <activity android:name=".notepad.NoteEditorActivity" />
+        <activity android:name=".checking_layout" />
+        <activity android:name=".login_registration.paid_home" />
+        <activity
+            android:name=".countdown"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".login_registration.SignIn" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".login_registration.registration_sti"
+            android:theme="@style/AppThemered" />
+        <activity
+            android:name=".login_registration.SignInActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".login_registration.HomeActivity" />
+        <activity
+            android:name=".main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".login_registration.SignUpActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".login_registration.ForgotPasswordActivity" />
+        <activity android:name=".checkHTML" />
+        <activity android:name=".dates" />
+        <activity android:name=".About" />
+        <activity android:name=".home" />
+        <activity android:name=".landing" />
+        <activity android:name=".Check" />
+        <activity android:name=".registration" />
+        <activity android:name=".post_payment" />
+        <activity android:name=".Pre_payment" />
+        <activity android:name=".MainActivity" />
+
+        <service
+            android:name=".notification.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

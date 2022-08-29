@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/NeviBLue"
+    tools:context=".Pre_payment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:layout_marginStart="67dp"
+        android:textStyle="bold"
+        android:layout_marginTop="345dp"
+        android:text="City"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/white"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="266dp"
+        android:text="Full Adress"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="432dp"
+        android:text="Zip code"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="67dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="519dp"
+        android:text="Country"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="610dp"
+        android:text="Phone Number"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/information"
+        android:layout_width="389dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="52dp"
+        android:text="Please Enter Your Information"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="69dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="188dp"
+        android:text="Email"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="108dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Full Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="138dp"
+        android:alpha="0.5"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="Full name e.g.(Sourav chowhan)"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="219dp"
+        android:ems="10"
+        android:textColorHint="@color/white"
+        android:textColorHighlight="@color/white"
+        android:backgroundTint="@color/white"
+        android:alpha="0.5"
+        android:inputType="textPersonName"
+        android:hint="Maill address e.g.(xxx@domain.com)"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="379dp"
+        android:ems="10"
+        android:alpha="0.5"
+        android:textColorHint="@color/white"
+        android:textColorHighlight="@color/white"
+        android:backgroundTint="@color/white"
+        android:inputType="textPersonName"
+        android:hint="City name e.g.(Dhaka)"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="297dp"
+        android:ems="10"
+        android:alpha="0.5"
+        android:textColorHint="@color/white"
+        android:textColorHighlight="@color/white"
+        android:backgroundTint="@color/white"
+        android:inputType="textPersonName"
+        android:hint="Address e.g.(220/D,Begum Rokeya Sarani,Dhaka -1207, Bangladesh"
+        android:textSize="14sp" />
+    <EditText
+        android:id="@+id/zip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="467dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:outlineSpotShadowColor="@color/white"
+        android:ems="10"
+        android:alpha="0.5"
+        android:backgroundTint="@color/white"
+        android:inputType="textPersonName"
+        android:hint="Zip code e.g.(1207)"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="68dp"
+        android:outlineSpotShadowColor="@color/white"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="557dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:ems="10"
+        android:alpha="0.5"
+        android:inputType="textPersonName"
+        android:hint="Country e.g. (Bangladesh)"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="648dp"
+        android:ems="10"
+        android:alpha="0.5"
+        android:inputType="phone"
+        android:hint="phone no e.g. (+8801--------)"
+        android:textColorHighlight="@color/white"
+        android:backgroundTint="@color/white"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/ssl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="106dp"
+            android:layout_marginTop="729dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="@color/Yellow"
+            android:hint="Continue to SSLcommerz Pay"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/NeviBLue"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.sti.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action android:id="@+id/action_nav_home_to_nav_gallery" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.sti.ui.gallery.GalleryFragment"
+        android:label="Introduction"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.sti.ui.slideshow.SlideshowFragment"
+        android:label="Keynote speakers"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.sti.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.sti.ui.share.ShareFragment"
+        android:label="Sponsors"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.sti.ui.send.SendFragment"
+        android:label="Contract"
+        tools:layout="@layout/fragment_send" />
+    <fragment
+        android:id="@+id/datesFragment2"
+        android:name="com.example.sti.ui.dates.datesFragment"
+        android:label="Important Dates"
+        tools:layout="@layout/dates_fragment" />
+    <fragment
+        android:id="@+id/committee_fragment"
+        android:name="com.example.sti.ui.committee.committee"
+        android:label="STI Committee"
+        tools:layout="@layout/committee_fragment" />
+    <fragment
+        android:id="@+id/submission"
+        android:name="com.example.sti.ui.submission.submission"
+        android:label="Submission"
+        tools:layout="@layout/submission_fragment" />
+    <fragment
+        android:id="@+id/callforpaper"
+        android:name="com.example.sti.ui.call.callforpaper"
+        android:label="Call for paper"
+        tools:layout="@layout/callforpaper_fragment" />
+    <fragment
+        android:id="@+id/event"
+        android:name="com.example.sti.ui.event.event"
+        android:label="Event"
+        tools:layout="@layout/event_fragment" />
+    <fragment
+        android:id="@+id/publication"
+        android:name="com.example.sti.ui.publication.publication"
+        android:label="STI publication"
+        tools:layout="@layout/publication_fragment" />
+    <fragment
+        android:id="@+id/sti_expo"
+        android:name="com.example.sti.ui.stiexpo.sti_expo"
+        android:label="STI Expo"
+        tools:layout="@layout/sti_expo_fragment" />
+    <fragment
+        android:id="@+id/registration_fragement"
+        android:name="com.example.sti.ui.registration.registration_fragement"
+        android:label="STI registration"
+        tools:layout="@layout/registration_fragement_fragment" />
+
+</navigation>

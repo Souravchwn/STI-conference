@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">STI 2021</string>
+    <string name="about_sti">
+The Industry 4.0 refers to the Fourth Industrial Revolution that encompasses smart industries, smart grids, intelligent transportation, real-time healthcare, etc. bolstered by automation and cyber-physical systems. Detail studies and researches are required to design and develop sustainable technologies for Industry 4.0 since they depend on complex relations among humans, systems and objects. The 1st event of STI 2019 gathered around 12 distinguished keynote speakers, 200+ authors, 100+ senior academicians, 30+ industry practitioners from 20+ countries of the World.
+
+STI 2020 welcomes researchers, industry professionals and practitioners to display their scientific achievements and sustainable innovative industrial developments in the fields of computer science engineering, electrical, electronic engineering, textile engineering, robotics and cyber-physical systems that are entering into Industry 4.0. STI 2020 will be held at the permanent campus of Green University of Bangladesh, Purbachal American City, Dhaka, Bangladesh during 19-20 December 2020. We are seeking original high-quality innovative research for submissions. All submissions to STI 2020 will be double blind peer reviewed. Accepted and presented papers will be published in the IEEE Explore digital library.
+    </string>
+
+    <string name="important_dates">
+        Full Paper Submission: 31 August 2021
+        Submission of Special Session, Tutorial and Workshop Proposal: 16 September 2021
+        Student Conference: 16 September 2021
+        Acceptance Notification: 30 September 2021
+        Final Camera-Ready Paper Submission: 15 October 2021
+        Conference Date: 18-19 December 2021
+    </string>
+    <string name="title_activity_tab1">tab1</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_apphome">apphome</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_main">main</string>
+    <string name="welcome">Welcome</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="TandC">I agree to the terms and condition of the AppCompany</string>
+    <string name="error_view">Error View</string>
+    <string name="password">Password</string>
+    <string name="email_hint">user@domain.com</string>
+    <string name="email">Email</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="email_verify_again">Send Verify Email Again</string>
+    <string name="enterEmailId">Enter the registered Email ID</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="user_domain_com">user@domain.com</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
