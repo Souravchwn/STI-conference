@@ -11,7 +11,7 @@ STI conference mobile application is all about having everything about the STI i
 
 ## Screenshots
 
-![App Screenshot](https://github.com/Souravchwn/STI-conference/blob/main/Screenshots/home.jpg)
+![App Screenshot](https://github.com/Souravchwn/STI-conference/blob/main/Screenshots/home.jpg =250x250)
 
 
 ## Environment Variables
