@@ -10,7 +10,7 @@ STI conference mobile application is all about having everything about the STI i
 
 
 ## Screenshots
-![App Screenshot](https://github.com/Souravchwn/STI-conference/blob/main/Screenshots/home.jpg){:height="36px" width="36px"}
+![App Screenshot](https://github.com/Souravchwn/STI-conference/blob/main/Screenshots/home.jpg){:height="36px" width="36px"}.
 
 
 ## Environment Variables
