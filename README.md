@@ -14,10 +14,11 @@ This project is used by the STI Conference in 2021:
 
 - Green University of Bangladesh
 
-## Hardware Requirements for this System
+## Hardware & software Requirements for this System
 - Android Smartphone with minimum 2GB of ram.
+- This app will support every android phones in the markets now (From Android kitkat to latest Android version 11.0) 
 
-## Software requirements for this System
+## Project config
 - targetSdkVersion 30
 - minSdkVersion 19
 - compileSdkVersion 30
@@ -65,7 +66,7 @@ This project is used by the STI Conference in 2021:
 
 ---
 
-## Login and Registration
+# Login and Registration
 - Used Firebase for authentications and Notifications
 
 * Login and Registration activity
@@ -108,7 +109,7 @@ User can see total users count of registerd people
 
 ---
 
-# Notepad 
+## Notepad 
 - user can add notes and can delete notes
 <div>
   <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/notepad%20.jpg" alt="Main Screen" height="700dp">
@@ -136,8 +137,41 @@ User can see total users count of registerd people
 
 ---
 
-## System Testing
- * Memory Measurement Testing
+# System Testing
+## User Acceptance Testing
+
+User Acceptance Testing (UAT) is a type of testing that the end-user or client conducts
+to verify/accept the software system before transferring the software application to the
+production environment. UAT is performed after functional, installation, and device
+59
+testing is done in the final phase of testing. We’ve already done this test and the response is very much positive. Here are the following test results:-
+So, this application was distributed with a google from among 20 people. The user has
+used this app and given feedback. The test questions were as following:-
+- a. The system must execute to the end of the job.
+- b. The system is user-friendly and not confusing.
+- c. This application runs smoothly on devices with more than 2GB RAM.
+- d. The system showed all the information of STI Conference.
+- e. Login and registration work very well.
+- f. The system notified all the attendees about STI Conference events.
+- g. An email verification mail was received.
+- h. Live events were shown and attendees can join on the link with a click on the
+buttons.
+- i. Notices were showing smoothly.
+- j. The system shows the User profile very well.
+Here is the graph/test data:-
+
+<div>
+  <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/uat.JPG" alt="Main Screen">
+  <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/uat1.JPG" alt="Main Screen">
+  <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/uat2.JPG" alt="Main Screen">
+  <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/ust3.JPG" alt="Main Screen">
+  <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/uat4.JPG" alt="Main Screen">
+</div>
+
+---
+
+ ## Memory Measurement Testing
+ 
  This test is done in the Android studio with Profiler. The Android Profiler tools
 provide real-time data to help you to understand how your app uses CPU, memory,
 62
@@ -148,7 +182,8 @@ application can run on any mobile. The minimum ram needed for the application is
   <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/overall.JPG" alt="Main Screen">
 </div>
 
-* CPU Measurement Testin
+## CPU Measurement Testing
+
 This test is also done in the Android application with the help of Profiler. The overall
 CPU use was so light. When the user clicks on the application the use of CPU rises
 from 0 to 50-60%. Then the CPU uses comes to zero. When we click some buttons in
