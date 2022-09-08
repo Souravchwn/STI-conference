@@ -77,7 +77,7 @@ This project is used by the STI Conference in 2021:
 </div>
 
 
-* User profile
+# User profile
 - User can see the profile of their
 - They can see the email they hava used and address they have given on Registration time
 <div>
