@@ -75,6 +75,16 @@ This project is used by the STI Conference in 2021:
   <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/Registration%20(2).jpg" alt="Main Screen" height="700dp">
 </div>
 
+
+* User profile
+- User can see the profile of their
+- They can see the email they hava used and address they have given on Registration time
+<div>
+  <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/profile.jpg" alt="Main Screen" height="700dp">
+</div>
+
+--- 
+
 ## Features for Registered people
 - one click to join meeting
 - Notice board for STI realted notices
@@ -86,7 +96,27 @@ This project is used by the STI Conference in 2021:
 User can see total users count of registerd people
 
 * Here is some screenshots
+<div>
+  <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/Login%20home.jpg" alt="Standard Calc" height="600dp">
+   <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/Zoom%20links.jpg" alt="History of Calc" height="600dp">
+     <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/IMG_20220907_164253.jpg" alt="Standard Calc" height="600dp">
+   <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/notice%20board.jpg" alt="History of Calc" height="600dp">
+     <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/notices.jpg" alt="Standard Calc" height="600dp">
+     <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/pdf%20viewerr.jpg" alt="Standard Calc" height="600dp">
 
+</div>
+
+---
+
+# Notepad 
+- user can add notes and can delete notes
+<div>
+  <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/notepad%20.jpg" alt="Main Screen" height="700dp">
+  <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/add%20note%20.jpg" alt="Main Screen" height="700dp">
+  
+</div>
+
+---
 
 # Event with time and zoom links
 - if user clicks on the names they will redirect to the zoom applciation with zoom links.
@@ -95,8 +125,37 @@ User can see total users count of registerd people
   <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/IMG_20220907_164253.jpg" alt="Main Screen" height="700dp">
 </div>
 
+---
 
+# Notification with Firebase
+- User will receive notificaiton during event days
+- User will be notified with events names
+<div>
+  <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/notifications.jpg" alt="Main Screen" height="700dp">
+</div>
 
 ---
+
+## System Testing
+ * Memory Measurement Testing
+ This test is done in the Android studio with Profiler. The Android Profiler tools
+provide real-time data to help you to understand how your app uses CPU, memory,
+62
+network, and battery resources. The overall uses of RAM uses were so light. This
+application can run on any mobile. The minimum ram needed for the application is
+512M
+<div>
+  <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/overall.JPG" alt="Main Screen">
+</div>
+
+* CPU Measurement Testin
+This test is also done in the Android application with the help of Profiler. The overall
+CPU use was so light. When the user clicks on the application the use of CPU rises
+from 0 to 50-60%. Then the CPU uses comes to zero. When we click some buttons in
+the application the uses rise to 5%.
+<div>
+  <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/cpu%20mesasure.JPG" alt="Main Screen">
+</div>
+
 
 
