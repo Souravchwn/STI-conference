@@ -8,29 +8,95 @@ STI conference mobile application is all about having everything about the STI i
 - User can login and registration to this application
 - User can join on current going events from the Homepage after login 
 
-
-## Screenshots
-![App Screenshot](https://github.com/Souravchwn/STI-conference/blob/main/Screenshots/home.jpg){:height="36px" width="36px"}.
-
-
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-`API_KEY`
-
-`ANOTHER_API_KEY`
-
-
 ## Used By
 
-This project is used by the following companies:
+This project is used by the STI Conference in 2021:
 
-- Company 1
-- Company 2
+- Green University of Bangladesh
+
+## Hardware Requirements for this System
+- Android Smartphone with minimum 2GB of ram.
+
+## Software requirements for this System
+- targetSdkVersion 30
+- minSdkVersion 19
+- compileSdkVersion 30
+- buildToolsVersion "30.0.3"
+
+## System design
+- Here is the flow chart of this applicaiton.
+<div>
+  <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/flow%20(1).png" alt="Main Screen" height="600dp">
+</div>
+
+## Screenshorts:
+* Application Splash Screen:
+<div>
+  <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/splash_screen.jpg" alt="Main Screen" height="700dp">
+</div>
+
+---
 
 
-## Documentation
+* Landing Home Screen:
 
-[Documentation](https://linktodocumentation)
+<div>
+  <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/home.jpg" alt="Main Screen" height="700dp">
+  <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/Home-1.jpg" alt="Main Screen" height="700dp">
+
+</div>
+
+---
+
+* Another activities:
+
+<div>
+  <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/About.jpg" alt="Standard Calc" height="500dp">
+   <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/IMG_20220907_164101.jpg" alt="History of Calc" height="500dp">
+     <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/Call%20for%20paper.jpg" alt="Standard Calc" height="500dp">
+   <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/contact.jpg" alt="History of Calc" height="500dp">
+     <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/Important%20dates.jpg" alt="Standard Calc" height="500dp">
+   <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/Keynote%20speaker.jpg" alt="History of Calc" height="500dp">
+     <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/STI.jpg" alt="Standard Calc" height="500dp">
+   <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/Sponsor.jpg" alt="History of Calc" height="500dp">
+     <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/Submission%20guide.jpg" alt="Standard Calc" height="500dp">
+   <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/Registration.jpg" alt="History of Calc" height="500dp">
+</div>
+
+---
+
+## Login and Registration
+- Used Firebase for authentications and Notifications
+
+* Login and Registration activity
+
+<div>
+  <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/login.jpg" alt="Main Screen" height="700dp">
+  <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/Registration%20(2).jpg" alt="Main Screen" height="700dp">
+</div>
+
+## Features for Registered people
+- one click to join meeting
+- Notice board for STI realted notices
+- Notepad to save tempory notes
+- Event Schedule
+- Notificaiton of the events
+- User Profile
+
+User can see total users count of registerd people
+
+* Here is some screenshots
+
+
+# Event with time and zoom links
+- if user clicks on the names they will redirect to the zoom applciation with zoom links.
+
+<div>
+  <img src="https://github.com/Souravchwn/STI-conference/blob/main/App%20Screenshots/IMG_20220907_164253.jpg" alt="Main Screen" height="700dp">
+</div>
+
+
+
+---
+
 
